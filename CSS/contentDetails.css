@@ -1,0 +1,143 @@
+body {
+    font-size: 14px;
+    background: #f3f5f7 !important;
+}
+
+.box {
+    width: 6.4rem;
+    margin: 0 auto;
+}
+
+.headerin {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: pink; */
+    width: 100%;
+    background-color: #fff;
+}
+
+.headerin>.search {
+    width: 100%;
+    height: 28px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: none;
+    background: #f3f5f6;
+    color: #9199a1;
+    font-size: 0.14rem;
+    text-indent: 1em;
+    flex: 1;
+}
+
+.headerin>.logo {
+    margin-right: 0.15rem;
+}
+
+.headerin>.buycar {
+    margin: 3px 0 0 0.15rem;
+}
+
+.silder {
+    width: 6.4rem;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #F3F5F6 !important;
+    background-color: #fff;
+}
+
+nav>.navul {
+    display: flex;
+}
+
+nav>.navul>li {
+    flex: 1;
+    padding: 0.29rem 0;
+    position: relative;
+}
+
+nav>.navul>li>a {
+    font-size: 0.16rem;
+    font-weight: 700;
+}
+
+nav>.navul>li>a.active {
+    color: #f33;
+}
+
+nav>.navul>li>a.active::before {
+    display: block;
+    position: absolute;
+    bottom: 0.05rem;
+    left: 0.5rem;
+    content: ' ';
+    background: #FF2D50;
+    width: 0.6rem;
+    height: 0.06rem;
+    border-radius: 0.04rem;
+}
+footer>.container {
+    background: #000;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer>.container>p {
+    color: #fff;
+    font-size: 0.14rem;
+}
+
+footer>.container>span>img {
+    padding-left: 4px;
+    opacity: 0.7;
+    width: 0.36rem;
+    height: 0.32rem;
+}
+
+footer>.container>span>img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.main {
+    width: 6.4rem;
+}
+.mainAll {
+    width: 100%;
+    background-color: #fff;
+}
+.mainAll>.title{
+    width: 100%;
+}
+.mainAll>.title>.divh2{
+    background: #fafafa;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainAll>.title>.divh2 .return{
+    position: relative;
+    width: 0.5rem;
+    top: 0.05rem;
+    left: -1.2rem;
+}
+.mainAll>.title h2{
+    font: .23rem/0.5rem Microsoft yahei;
+    font-weight: 600;
+    color: #000;
+}
+.mainAll>.readImg{
+    width: 100%;
+    padding-top: 0.05rem;
+}
+.mainAll>.readImg img{
+    width: 100%;
+}

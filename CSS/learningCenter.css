@@ -1,0 +1,312 @@
+body {
+    font-size: 14px;
+    background: #f3f5f7 !important;
+}
+
+.box {
+    width: 6.4rem;
+    margin: 0 auto;
+}
+
+.headerin {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #fff;
+}
+
+.headerin>.search {
+    width: 100%;
+    height: 28px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: none;
+    background: #f3f5f6;
+    color: #9199a1;
+    font-size: 0.14rem;
+    text-indent: 1em;
+    flex: 1;
+}
+
+.headerin>.logo {
+    margin-right: 0.15rem;
+    animation: rotate 2s linear infinite;
+}
+
+.headerin>.buycar {
+    margin: 3px 0 0 0.15rem;
+}
+
+.silder {
+    width: 6.4rem;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #F3F5F6 !important;
+    background-color: #fff;
+}
+
+nav>.navul {
+    display: flex;
+}
+
+nav>.navul>li {
+    flex: 1;
+    padding: 0.29rem 0;
+    position: relative;
+}
+
+nav>.navul>li>a {
+    font-size: 0.16rem;
+    font-weight: 700;
+}
+
+nav>.navul>li>a.active {
+    color: #f33;
+}
+
+nav>.navul>li>a.active::before {
+    display: block;
+    position: absolute;
+    bottom: 0.05rem;
+    left: 0.695rem;
+    content: ' ';
+    background: #FF2D50;
+    width: 0.2rem;
+    height: 0.06rem;
+    border-radius: 0.04rem;
+}
+
+#contentbox {
+    width: 6.4rem;
+    margin-top: 0.1rem;
+}
+
+.contentbox {
+    width: 100%;
+}
+
+.contentbox>.pinfo {
+    width: 100%;
+    background: #fff;
+    box-shadow: 2px 4px 10px rgb(28 31 33 / 12%);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.contentbox>.pinfo>.info_name {
+    display: flex;
+    justify-content: center;
+    margin-left: 0.4rem;
+}
+
+.pinfo>.info_name>img {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 8px;
+    margin-right: 0.1rem;
+}
+
+.pinfo>.info_name>div>h2 {
+    font-size: 0.18rem;
+}
+
+.pinfo>.info_name>div>p {
+    font-size: 0.14rem;
+    color: #9199a1;
+}
+
+.contentbox>.pinfo>.info_mark {
+    margin-right: 0.4rem;
+}
+
+.contentbox>.pinfo>.info_mark>div>span:first-child {
+    font-size: 0.18rem;
+    font-weight: bold;
+    padding-left: 0.07rem;
+}
+
+.contentbox>.pinfo>.info_mark>div>span:last-child {
+    font-size: 0.14rem;
+}
+
+.contentbox>.pinfo>.info_mark>a {
+    display: block;
+    border-radius: 25px;
+    color: #fff;
+    background: #f33;
+    text-align: center;
+    font-size: 0.1rem;
+    padding: 0.03rem 0.15rem;
+}
+
+
+/* 内容 */
+
+.contentbox>.chapter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0.1rem;
+}
+
+.contentbox>.chapter>.chapter1 {
+    width: 100%;
+    background: #fff;
+    border-radius: 12px;
+    margin-bottom: 0.1rem;
+    box-shadow: 2px 4px 10px rgb(28 31 33 / 12%);
+}
+
+.contentbox>.chapter>.chapter1>.title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.1rem;
+}
+
+.contentbox>.chapter .tith2 {
+    margin-left: 0.3rem;
+}
+
+.contentbox>.chapter .tita {
+    font-size: 0.14rem;
+    color: #9199a1;
+    margin-right: 0.3rem;
+}
+
+.contentbox>.chapter>.chapter1>.bottom {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.contentbox>.chapter>.chapter1>.bottom>.left {
+    /* width: 1.65rem; */
+    margin: 50px 0 10px 30px;
+}
+
+.contentbox>.chapter>.chapter1>.bottom>.left>ul {
+    display: flex;
+    justify-content: space-between;
+    /* width: 2rem; */
+}
+
+.contentbox>.chapter>.chapter1>.bottom>.left>ul>li {
+    margin-right: 0.3rem;
+}
+
+.chapter>.chapter1>.bottom>.left span:first-child {
+    font-size: 0.28rem;
+}
+
+.chapter>.chapter1>.bottom>.left>ul>li>span {
+    font-size: 0.16rem;
+}
+
+.chapter .sharep {
+    font-size: 0.14rem;
+    color: #9199a1;
+}
+
+.chapter>.chapter1>.bottom>.center {
+    /* width: 0.8rem; */
+    display: flex;
+    align-self: flex-end;
+    margin: 0 0 10px 0px;
+}
+
+.chapter>.chapter1>.bottom>.center>a {
+    display: block;
+    font-size: 0.14rem;
+    color: #9199a1;
+}
+
+.chapter>.chapter1>.bottom>.right {
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 50%;
+    border: 5px solid green;
+    text-align: center;
+    margin: 0.1rem 0.5rem 0 0;
+    line-height: 0.2rem;
+    position: relative;
+}
+
+.chapter>.chapter1>.bottom>.right>div {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.chapter>.chapter1>.bottom>.right>div>p {
+    color: #9199a1;
+    line-height: 0.17rem;
+}
+
+h2 {
+    font-size: 0.14rem;
+    line-height: 0.3rem;
+}
+
+.chapter>.chapter1>.bottom>.right span {
+    font-size: 0.2rem;
+}
+
+
+/* 页脚 */
+
+footer>.container {
+    background: #000;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer>.container>p {
+    color: #fff;
+    font-size: 0.14rem;
+}
+
+footer>.container>span {
+    /* margin: 0 40px 0 0; */
+}
+
+footer>.container>span>img {
+    padding-left: 4px;
+    opacity: 0.7;
+    width: 0.36rem;
+    height: 0.32rem;
+}
+
+footer>.container>span>img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+@keyframes rotate {
+    0% {}
+    100% {
+        transform: rotate(360deg);
+    }
+}
